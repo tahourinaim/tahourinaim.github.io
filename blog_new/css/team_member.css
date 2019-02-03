@@ -1,0 +1,61 @@
+header 
+{
+    background-image: url(../team/team.jpg);
+    color: white;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    margin-top: -65px;
+}
+
+header .filter 
+{
+    background-color: rgba(0, 0, 0, .8);
+    padding: 150px 0 100px;
+    height: 100%;
+
+}
+
+header img
+{
+    width:100px;
+}
+
+header h1
+{
+    font-family:'Courgette';
+}
+
+header h2
+{
+    font-family:'Courgette';
+}
+
+
+.content
+{
+    padding-top:20px;
+    /* padding-left:80px; */
+}
+
+.aside
+{
+    margin-left:-25px;
+}
+
+.img
+{
+    width:200px;
+    height:200px;
+    border-radius:60%;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right:20px;
+    float:left;
+}
+
+.row p 
+{
+    font-family:'Oswald';
+}

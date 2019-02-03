@@ -1,0 +1,76 @@
+/* HEADER */
+
+header 
+{
+    background-image: url(../team/team.jpg);
+    color: white;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    margin-top: -65px;
+}
+
+header .filter 
+{
+    background-color: rgba(0, 0, 0, .8);
+    padding: 150px 0 100px;
+    height: 100%;
+
+}
+
+header img
+{
+    width:100px;
+}
+
+header h1
+{
+    font-family:'Courgette';
+}
+
+.filter img
+{
+    width:80px;
+}
+
+
+/* CONTENT */
+
+.lineof_img
+{
+    margin-left:20px;
+    margin-top:30px;
+    text-align:center;
+    
+}
+.tony_img
+{
+    border-radius:50%;
+    width:150px;
+}
+
+.row .metier
+{
+    font-size:15px;
+
+}
+
+.row h2
+{
+    font-size:23px;
+    font-family:'Courgette';
+    
+}
+
+.metier
+{
+    margin-bottom:30px;
+}
+
+/* ASIDE */
+
+.aside 
+{
+    margin-left:-60px;
+}

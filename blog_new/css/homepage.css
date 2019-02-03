@@ -1,0 +1,138 @@
+*{
+    transition: all 0.9s;
+}
+
+/* BARRE DE NAVIGATION */
+
+nav 
+{
+background-color: rgba(0, 0, 0, 0);
+border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+
+}
+
+.navbar-brand
+{
+    font-family: 'Courgette';
+    font-size:25px;
+}
+
+.nav-item
+{
+    font-family: 'Oswald';
+}
+
+/* HEADER */
+
+header 
+{
+    background-image: url(../img/header.jpg);
+    color: white;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: -65px;
+}
+
+header .filter 
+{
+    background-color: rgba(0, 0, 0, .7);
+    padding: 150px 0 100px;
+    height: 100%;
+
+}
+
+header img
+{
+    width:100px;
+}
+
+header h1, h2
+{
+    font-family:'Courgette';
+}
+
+/* TRANSITION DES ARTICLES */
+
+.titre_article
+{
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+/* LES ARTICLES */
+
+
+.articles 
+{
+    height:auto;
+}
+.aside 
+{
+
+    height: 400px;
+   
+}
+
+.row h3 
+{
+    font-family: 'Courgette';
+}
+
+.row p
+{
+    font-family: 'Oswald';
+    color:grey;
+}
+
+
+/* SECTION ASIDE */
+
+.form-group button
+{
+    border:1px solid black;
+}
+
+.form-group h4
+{
+    font-size:23px;
+    font-family:'Courgette';
+}
+
+.form-group 
+{
+    width:auto;
+    font-size:28px;
+}
+
+
+/* FOOTER */
+
+.containerof_footer
+{
+    background-color: black;
+    color:white;
+    padding-top:20px;
+    padding-left:20px;
+
+}
+
+.containerof_footer ul 
+{
+    list-style: none;
+    padding:0px;
+    font-family:'Oswald';
+    text-decoration: underline;
+}
+
+.form-group h4
+{
+    margin-top:10px;
+}
+
+.form-group i
+{
+    width:auto;
+    font-size:20px;
+}

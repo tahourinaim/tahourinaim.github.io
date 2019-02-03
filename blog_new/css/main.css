@@ -1,0 +1,164 @@
+/* *************************************************** FEUILLE DE STYLE GENERALE **************************************************/
+
+/* BARRE DE NAVIGATION GENERALE */
+
+nav 
+{
+background-color: rgba(0, 0, 0, 0);
+border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+
+}
+
+.navbar-brand
+{
+    font-family: 'Courgette';
+    font-size:25px;
+}
+
+.nav-item
+{
+    font-family: 'Oswald';
+}
+
+/* HEADER GENERAL */
+
+*
+{
+    font-family:'Oswald';
+}
+
+
+a.link, a.link:hover
+{
+    color: black !important;
+    text-decoration: none;
+}
+
+a.link:hover
+{
+    transform:scale(1.04);
+    opacity:0.7;
+    
+}
+
+header 
+{
+    background-image: url(../img/header.jpg);
+    color: white;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: -65px;
+    background-size: cover;
+}
+
+header .filter 
+{
+    background-color: rgba(0, 0, 0, .8);
+    padding: 150px 0 100px;
+    height: 100%;
+
+}
+
+header img
+{
+    width:100px;
+}
+
+header h1
+{
+    font-family:'Courgette';
+}
+
+header h2
+{
+    font-family:'Courgette';
+}
+
+.filter img
+{
+    width:80px;
+}
+
+/* SECTION ASIDE */
+
+
+ .content 
+{
+    /* background-color: blue; */
+    min-height: 500px;  
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.aside 
+{
+    /* background-color: red; */
+    min-height: 400px; 
+} 
+
+.form-group button
+{
+    border:1px solid black;
+}
+
+.form-group h4
+{
+    font-size:23px;
+    font-family:'Courgette';
+}
+
+.form-group i 
+{
+    width:auto;
+    font-size:28px;
+}
+
+
+/* FOOTER */
+
+.containerof_footer
+{
+    background-color: black;
+    color:white;
+    padding-top:20px;
+    padding-left:20px;
+
+}
+
+.containerof_footer ul 
+{
+    list-style: none;
+    padding:0px;
+    font-family:'Oswald';
+    text-decoration: underline;
+}
+
+.containerof_footer h3
+{
+    font-family:'Courgette';
+}
+
+
+.form-group h4
+{
+    margin-top:10px;
+}
+
+.form-group i
+{
+    width:auto;
+    font-size:20px;
+}
+
+.sociaux_icon
+{
+    margin-top:10px;
+    list-style: none;
+    font-size:25px;
+    display:flex;
+    
+}
+.sociaux_icon li 
+{
+    margin-right:20px;
+}

@@ -1,0 +1,191 @@
+/* *************************************************** FEUILLE DE STYLE GENERALE **************************************************/
+
+
+*
+{
+    font-family:'Oswald';
+
+}
+/* BARRE DE NAVIGATION GENERALE */
+
+nav 
+{
+background-color: rgba(0, 0, 0, 0);
+border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.navbar-brand
+{
+    font-family: 'Courgette';
+    font-size:25px;
+}
+
+.nav-item
+{
+    font-family: 'Oswald';
+}
+
+/* HEADER GENERAL */
+
+header 
+{
+    background-image: url('../img/articles/suzette/suzette-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+header h1
+{
+    display:inline-flex;
+    padding:0px ! important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    margin:auto !important;
+
+}
+
+.title_page
+{
+    font-family: 'Courgette';
+    padding-top:200px;
+    margin:auto !important;
+    background-color:black;
+    opacity:1;
+    color:white;
+    text-align: center;
+}
+
+
+.filter_title
+{
+    background-color: black;
+} 
+
+
+/* CONTENT */ 
+
+.content 
+{
+    /* background-color: blue; */
+    min-height: 500px;  
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.antoine_img
+{
+    width:100%;
+    border-radius:60%;
+    max-width:150px;
+}
+
+em
+{
+    font-size:69px;
+    float:left;
+    line-height:40px;
+    margin-right:10px;
+    font-style:normal;
+    color:black;
+    font-weight:bold;
+}
+.row h2
+{
+    font-family: 'Courgette';
+}
+
+.row .logo
+{
+    float:left;
+    width:100px;
+}
+
+.margin_row
+{
+    margin-left:60px;
+}
+
+.logo_opacity
+{
+    float:left;
+    width:100px;
+    opacity:0.5;
+}
+
+/* ASIDE */
+
+.aside 
+{
+    /* background-color: red; */
+    height: 400px; 
+}
+
+.form-group button
+{
+    border:1px solid black;
+}
+
+.form-group h4
+{
+    font-size:23px;
+    font-family:'Courgette';
+}
+
+.form-group i 
+{
+    width:auto;
+    font-size:28px;
+}
+
+
+/* FOOTER */
+
+.containerof_footer
+{
+    background-color: black;
+    color:white;
+    padding-top:20px;
+    padding-left:20px;
+
+}
+
+.containerof_footer ul 
+{
+    list-style: none;
+    padding:0px;
+    font-family:'Oswald';
+    text-decoration: underline;
+}
+
+.containerof_footer h3
+{
+    font-family:'Courgette';
+}
+
+
+.form-group h4
+{
+    margin-top:10px;
+}
+
+.form-group i
+{
+    width:auto;
+    font-size:20px;
+}
+
+.sociaux_icon
+{
+    margin-top:10px;
+    list-style: none;
+    font-size:25px;
+    display:flex;
+    
+}
+.sociaux_icon li 
+{
+    margin-right:20px;
+}

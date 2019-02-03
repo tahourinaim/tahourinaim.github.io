@@ -1,0 +1,41 @@
+                                /* ARTICLES + ASIDE */ /* A DEPLACER DANS CONTACT.CSS */
+
+/* ARTICLE */
+
+.content {
+    /* background-color: blue; */
+    margin-top:60px;
+}
+.aside {
+    /* background-color: red; */
+    margin-top:80px;
+
+}
+
+.title_liste
+{
+    margin-left:30px;
+}
+
+.row h2
+{
+    font-family: 'Courgette';
+    margin-left:70px;
+}
+.row ul
+{
+    list-style: none;
+    font-family: 'Oswald';
+    margin-left:70px;
+}
+
+.map
+{
+    margin-left:90px;
+}
+
+.margin_of_map
+{
+    padding:0;
+}
+
