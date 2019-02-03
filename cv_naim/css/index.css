@@ -105,7 +105,6 @@
     margin-left:8px;
     font-size:17px;
     font-family: sans-serif;
-    font-style: italic;
     font-weight: bold;
     
 }
@@ -140,10 +139,11 @@
 
 .contact_icon h2
 {
-    margin-top:61px;
+    margin-top:69px;
     margin-left:6px;
     display:flex;
-    font-size:45px;
+    font-size:40px;
+    font-weight:normal;
 }
 
 .contact_icon h2:hover
@@ -152,10 +152,21 @@
     transition:0.5s;
 }
 
+.flex_icon p
+{
+    font-weight:normal;
+}
+
 /* ./ HEADER */
 
 /* SECTION TITRE EXPERIENCE PROFESSIONELLE */
 
+.bg_xp
+{
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color:#DCDCDC;
+}
 .title_icon
 {
     display:flex;
@@ -319,6 +330,8 @@
     margin-bottom:15px;
 }
 
+/* COLONNE 1 LOGO COMPETENCE */
+
 .box_logo1
 {
     margin-left:70px;
@@ -370,4 +383,87 @@
 {
     width:130px;
     transition: 1s;
+}
+
+/* COLONNE 2 LOGO COMPETENCES  */
+
+.box_logo2
+{
+    margin-left:19px;
+}
+.bootstrap_logo
+{
+    width:165px;
+}
+
+.bootstrap_logo:hover
+{
+    width: 230px;
+    transition:0.8s;
+}
+
+.jquery_logo
+{
+    margin-left:-15px;
+    width:120px;
+}
+
+.jquery_logo:hover
+{
+    width:175px;
+    transition:0.8s;
+}
+
+.nodejs_logo
+{
+    margin-left:10px;
+    width:120px;
+}
+
+.nodejs_logo:hover
+{
+    width: 190px;
+    transition:1s;
+}
+
+/* COLONNE 3 LOGO COMPETENCES */
+
+.box_logo3
+{
+    margin-top:-10px;
+    margin-left:45px;
+}
+.salesforce_logo
+{
+    width:110px;
+}
+
+.salesforce_logo:hover
+{
+    width:150px;
+    transition:0.8s;
+}
+
+.mongodb_logo
+{
+    margin-left:15px;
+    width:120px;
+}
+
+.mongodb_logo:hover
+{
+    width:170px;
+    transition:0.8s;
+}
+
+.photoshop_logo
+{
+    margin-left:30px;
+    width:67px;
+}
+
+.photoshop_logo:hover
+{
+    width:100px;
+    transition:0.8s;
 }
