@@ -259,6 +259,7 @@
 {
     /* background-color: pink; */
     min-height:300px;
+    /* margin-left:0px !important; */
 }
 
 #picture_profil
@@ -332,10 +333,10 @@
 
 /* COLONNE 1 LOGO COMPETENCE */
 
-.box_logo1
+/* .box_logo1
 {
-    margin-left:70px;
-}
+    margin-left:58px;
+} */
 
 .html_logo
 {
@@ -389,7 +390,7 @@
 
 .box_logo2
 {
-    margin-left:19px;
+    margin-left:-30px;
 }
 .bootstrap_logo
 {
@@ -431,7 +432,7 @@
 .box_logo3
 {
     margin-top:-10px;
-    margin-left:45px;
+    margin-left:-5px;
 }
 .salesforce_logo
 {
